@@ -7,16 +7,16 @@
 [ci]:      https://travis-ci.org/DavidEngland/postcss-filter-progid
 
 ```css
+/* Input example */
 .foo {
-    /* Input example */
     background-image: linear-gradient(top, #fbfbfb, #f5f5f5);
     filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#fbfbfb', EndColorStr='#f5f5f5');
 }
 ```
 
 ```css
+/* Output example */
 .foo {
-  /* Output example */
   background-image: linear-gradient(top, #fbfbfb, #f5f5f5);
 }
 ```
