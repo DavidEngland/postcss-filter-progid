@@ -9,6 +9,9 @@ module.exports = postcss.plugin('postcss-filter-progid', function (opts) {
       if (decl.value.indexOf('progid') > -1) {
         decl.remove();
       }
+      if (decl.value.indexOf('alpha') > -1) {
+        decl.remove();
+      }
     });
   };
 
