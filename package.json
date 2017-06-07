@@ -12,7 +12,10 @@
   ],
   "author": "Dave England <DavidEngland@hotmail.com>",
   "license": "MIT",
-  "repository": "DavidEngland/postcss-filter-progid",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/DavidEngland/postcss-filter-progid.git"
+  }
   "bugs": {
     "url": "https://github.com/DavidEngland/postcss-filter-progid/issues"
   },
