@@ -13,6 +13,12 @@ module.exports = postcss.plugin('postcss-filter-progid', function (opts) {
         decl.remove();
       }
     });
+    css.walkDecls('-ms-filter', function (decl) {
+        // Probably replace with REGEX /progid/i case insensitive
+      if (decl.value.indexOf('progid') > -1) {
+        decl.remove();
+      }
+    });
   };
 
 });
