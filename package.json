@@ -15,7 +15,7 @@
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/DavidEngland/postcss-filter-progid.git"
-  }
+  },
   "bugs": {
     "url": "https://github.com/DavidEngland/postcss-filter-progid/issues"
   },
