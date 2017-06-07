@@ -9,7 +9,7 @@
 ```css
 /* Input example */
 .foo {
-    background-image: linear-gradient(top, #fbfbfb, #f5f5f5);
+    background-image: linear-gradient(to top, #fbfbfb, #f5f5f5);
     filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#fbfbfb', EndColorStr='#f5f5f5');
 }
 ```
@@ -17,7 +17,7 @@
 ```css
 /* Output example */
 .foo {
-  background-image: linear-gradient(top, #fbfbfb, #f5f5f5);
+  background-image: linear-gradient(to top, #fbfbfb, #f5f5f5);
 }
 ```
 
