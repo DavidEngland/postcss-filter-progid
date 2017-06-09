@@ -1,6 +1,7 @@
 # PostCSS Filter Progid [![Build Status][ci-img]][ci]
 
-[PostCSS] plugin remove legacy filter progid.
+[PostCSS] plugin remove legacy filter progid.  Just something I needed to
+automate my work flow.
 
 [PostCSS]: https://github.com/postcss/postcss
 [ci-img]:  https://travis-ci.org/DavidEngland/postcss-filter-progid.svg

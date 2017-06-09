@@ -1,6 +1,6 @@
 {
   "name": "postcss-filter-progid",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "PostCSS plugin remove legacy filter progid",
   "keywords": [
     "postcss",
