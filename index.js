@@ -20,5 +20,4 @@ module.exports = postcss.plugin('postcss-filter-progid', function(opts) {
             }
         });
     };
-
 });
